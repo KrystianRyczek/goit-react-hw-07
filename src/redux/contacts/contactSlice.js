@@ -4,7 +4,6 @@ const initialState ={
     value:"",
 }
 
-
 export const contactFilterSlice = createSlice({
     name: "phoneBook",
     initialState,

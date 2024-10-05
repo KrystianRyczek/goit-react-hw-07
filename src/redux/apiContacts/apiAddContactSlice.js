@@ -1,7 +1,4 @@
-//https://66fc376ec3a184a84d16797a.mockapi.io/phonebook/v1/contacts
-// fetchContacts — pobieranie tablicy kontaktów (metoda GET) przez żądanie. Podstawowym typem akcji będzie ciąg "contacts/fetchAll".
-// addContact — dodanie nowego kontaktu (metoda POST). Podstawowym typem akcji będzie ciąg "contacts/addContact".
-// deleteContact — usunięcie kontaktu według ID (metoda DELETE). Podstawowym typem akcji będzie ciąg "contacts/deleteContact".
+
 
 import { createSlice } from "@reduxjs/toolkit";
 import { addContacts } from "./operation";
